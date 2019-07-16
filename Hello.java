@@ -1,12 +1,12 @@
 public class Hello {
     public static void main(String[] args){
         System.out.println("Vs Code is Awesome..");
-        display();
+        greeting("Jamal");
     }
 
 
-    public static void display(){
-        System.out.println("Hello Hello");
+    public static void greeting(String name){
+        System.out.println("Welcome " + name);
     }
 
     public static int sqr(int x){
