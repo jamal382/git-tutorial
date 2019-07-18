@@ -1,15 +1,12 @@
 public class Hello {
     public static void main(String[] args){
         System.out.println("Vs Code is Awesome..");
-        greeting("Jamalk");
+        message();
     }
 
 
-    public static void greeting(String name){
-        System.out.println("Welcome " + name);
+    public static void message(){
+        System.out.println("Hurray !! now we are able to contribute on open source ..");
     }
 
-    public static int sqr(int x){
-        return x*x;
-    }
 }
