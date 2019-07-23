@@ -3,8 +3,8 @@ public class Hello {
         System.out.println("Vs Code is Awesome..");
     }
 
-    public static sqr(int x){
-        return x*x;
+    public static int area(int x, int y, int z){
+        return x*y*z;
     }
     
 }
